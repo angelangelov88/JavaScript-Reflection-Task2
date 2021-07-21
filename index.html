@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+
+  <link rel="stylesheet" href="scss/style.css">
+
+  <title>JavaScript Challenge 2</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Choose an image</h1>
+    </div>
+    <div class="image-wrapper">
+      <div class="generated-image">
+        <img src="https://picsum.photos/id/123/700/500" alt="random-image" id="image-1" >
+      </div>
+    </div>
+    <div class="refresh-div">
+      <h3>Click 'Refresh' for a new image</h3>
+      <button class="refresh-btn">Refresh!</button>
+    </div>
+    <div class="email-container">
+      <label for="email"><h3>Enter your email here:</h3></label>
+      <input type="email" id="email-input" name="email" placeholder="user@email.com">
+      <button id="assign-btn">Assign</button>
+    </div>
+    <div id="result">
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script> 
+<script src="main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  background-color: #4a4c4b;
+}
+
+.container {
+  margin: 3rem;
+}
+
+h1, h3 {
+  color: #40e0d0;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  position: relative;
+  top: -41rem;
+  left: 46rem;
+}
+
+#assign-btn,
+.refresh-btn {
+  background-color: #40e0d0;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 2px #40e0d0 solid;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.refresh-btn {
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.5rem;
+}
+
+#assign-btn:hover,
+.refresh-btn:hover {
+  background-color: #1aa093;
+  border-color: #1aa093;
+  transform: scale(0.95);
+}
+
+#email-input {
+  border-radius: 5px;
+  height: 22px;
+  border: 2px #40e0d0 solid;
+  margin: 10px 0 20px;
+}
+
+#email-input:hover {
+  background-color: #c4f5f0;
+  outline-color: #40e0d0;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#result img {
+  filter: blur(2px);
+  margin: 20px;
+}
+
+#result img:hover {
+  filter: none;
+  transform: scale(1.3);
+}
+
+#result {
+  position: relative;
+  top: -39rem;
+  left: 45rem;
+  max-width: 60rem;
+}
+
+/*# sourceMappingURL=style.css.map */
