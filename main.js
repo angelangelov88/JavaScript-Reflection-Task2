@@ -19,7 +19,7 @@ function emailValidationFunction() {
   if (email.value.match(emailValidation)) {
     return true;
   } else {
-    console.log('error with email');
+    //console.log('error with email');
     return false;
   }
 }
@@ -58,8 +58,8 @@ const addingEmail = function () {
 //Adding the image to that div
 const addingImage = function () {
   for (let x = 0; x < savedEmails.length; x++) {
-    console.log(email.value)
-    console.log(emailDisplay.innerHTML)
+    //console.log(email.value)
+    //console.log(emailDisplay.innerHTML)
     if (email.value === savedEmails[x]) {
       let showImageSaved = document.createElement('img')
       //$(`div#${x}`).append(showImageSaved)
@@ -85,7 +85,7 @@ function settingUrl () {
   const Id = generateRandom()
   id = Id
   Image1.setAttribute('src', 'https://picsum.photos/id/' + Id + '/700/500')
-  console.log('This is the ID of the image' + Id)
+  //console.log('This is the ID of the image' + Id)
   idOfImage1 = Id
 }
 
@@ -93,7 +93,7 @@ function settingUrl () {
 //Function that connects all other functions in order to ensure that they are all linked together and it gives the output.
 function generator() {
   if (emailValidationFunction()) {
-    console.log('Email working')
+    //console.log('Email working')
   } else {
     alert('Make sure you type a valid email address')
     return
